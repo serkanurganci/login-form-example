@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: 0;
+    list-style-type: none;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.container-user{
+    width: 400px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.user-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+    padding: 72px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.brand-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    animation:fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.brand-logo a{
+    text-decoration: none;
+    color: #E35600;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.user-login .btn-group{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.user-login .btn-group .btn{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.user-login .btn-group .btn-white{
+    background-color: #fff;
+}
+
+.user-login .btn-group .btn-gray{
+    background-color: lightgray;
+}
+
+.user-login form{
+    width: 100%;
+    background-color: #fff;
+}
+.user-login form input{
+    width: 100%;
+    background-color: lightgray;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.user-login form input:hover{
+    opacity: 0.8;
+}
+
+.user-login form input:focus{
+    border: 3px solid #E35600;
+}
+
+.user-login #btn-submit{
+    display: block;
+    width: 100%;
+    background-color:#E35600 ;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    padding: 0.8rem 1.3rem;
+    border-radius: 10px;
+}
+
+.user-login form .password-forget{
+    margin-top: 1.5rem !important;
+    font-size:0.9rem;
+    font-weight: 600;
+    color: #E35600;
+    text-decoration: none;
+}
+
+.user-login form .password-forget:hover{
+    color: #b14502;
+}
+
+.user-login form .social{
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    color: gray;
+    font-weight: 600;
+}
+.user-login form .social{
+    display: flex;
+    flex-direction: column;
+}
+.user-login form .social-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-login form .social-wrap a{
+    display: flex;
+    flex-direction: row;
+    border:2px solid lightgray;
+    padding:0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+.user-login form .social-wrap a:hover{
+    color: #E35600;
+}
+
+.user-login form .social-wrap a i{
+    font-size: 1.6rem;
+    margin-right: 0.4rem;
+}
+
+.copyright{
+    font-size: 11px;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright .security-shopping{
+    display: flex;
+    flex-direction: row;
+    color: green;
+    font-weight: 600;
+}
+
+.copyright .copy-text{
+    opacity: 0.9;
+}
