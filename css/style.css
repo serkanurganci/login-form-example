@@ -81,6 +81,7 @@ body{
     border-radius: 10px;
     outline: none;
     border: none;
+    transition: 0.2s;
 }
 
 .user-login form input:hover{
@@ -89,6 +90,7 @@ body{
 
 .user-login form input:focus{
     border: 3px solid #E35600;
+    opacity: 0.7;
 }
 
 .user-login #btn-submit{
